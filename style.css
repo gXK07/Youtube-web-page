@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+strong{
+	font-weight: bold;
+}
+header{
+	background-color: rgba(255, 255, 255, 0.975);
+	height: 56px;
+	padding: 10px 25px 0 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+}
+.menuIcon{
+	padding: 8.8px 0 8.8px 0 ;
+}
+.search{
+	display: flex;
+}
+
+.search input{
+	width: 580px;
+	height: 40px;
+	border: 0.1px solid rgba(153, 153, 153, 0.493);
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.loupe{
+	border: 0.1px solid rgba(153, 153, 153, 0.493);
+	background-color: rgb(240, 240, 240);
+	padding: 8.8px 15px 8.8px 15px ;
+}
+
+.Mic{
+	border-radius: 50%;
+	background-color: rgb(240, 240, 240);
+	margin-left: 10px;
+	padding: 8.6px;
+}
+
+
+.actions{
+	display: flex;
+}
+
+.actions figure {
+	margin: 10px;
+}
+
+.signIn{
+	color : #065fd4;
+	border : solid #065fd4 0.1px;
+	/* padding: 7px; */
+
+}
+.main{
+	background-color: #f9f9f9;
+	padding: 25px 70px 25px 25px;
+	display: flex;
+}
+
+/* .mainVideo{
+
+} */
+
+.comments{
+padding-top: 20px;
+}
+
+.Info .title{
+	margin-top : 15px;
+}
+
+.hashtag{
+	color : blue;
+	font-size: 13px;
+}
+
+h1{
+	font-size: 20px;
+}
+.videoInfo{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid rgba(134, 134, 134, 0.377) 0.1px;
+}
+.videoInfo a{
+	color : black;
+	font-weight: bold;
+}
+
+.views{
+	color : rgb(83, 83, 83);
+	padding-bottom: 30px;
+	font-size : 15px;
+}
+.actions div{
+	margin : 0 10px;
+}
+
+.thumbs{
+	border-bottom: solid 2px rgb(70, 70, 70);
+}
+
+.channelInfo{
+	border-bottom: solid rgba(134, 134, 134, 0.377) 0.1px;
+	padding: 25px 0;
+}
+
+.channelInfo .top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.profilPictureChannel{
+	margin-right: 10px;;
+}
+
+.TitleAndDesciption{
+	display: flex;
+}
+.subscribe{
+	align-self: center;
+	padding: 14px;
+	font-size: 15px;
+	color : white;
+	background-color: #ce362c;
+	border-radius: 6px;
+}
+
+
+.profilPicture{
+	border-radius : 50%;
+}
+
+.infoComment{
+	display: flex;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.infoComment div{
+	padding-right: 20px;
+}
+
+.addComment{
+	display: flex;
+	margin-bottom: 20px;
+}
+.video{
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.video Img {
+	margin-right: 10px;
+}
+
+.commentBar{
+	width: 100%;
+	padding-right: 20px;
+	font-size : 14px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom : solid rgba(134, 134, 134, 0.377) 0.1px;
+	background-color: #f9f9f9
+}
+.commentBar:focus{
+	outline: none;
+	border-bottom : solid rgba(1, 47, 133, 0.377) 0.1px;
+}
+
+.comment{
+	margin-top : 14px;
+	display: flex;
+}
+
+.comment .top{
+	display: flex;
+	margin-bottom: 10px;
+}
+.comment .top div{
+	margin-left: 5px;
+	font-size: 13px;
+	color : grey;
+}
+
+.mainComment .bottom{
+	margin-top: 14px;
+}
+.responses{
+	color : rgb(18, 120, 216);
+	font-size: 15px;
+}
+
+.side{
+	margin-right: 13px;
+}
+
+aside{
+	width: 360px;
+	padding-left: 25px;
+}
+
+a{
+	text-decoration: none;
+}
+.Thumbnail h4{
+	color : grey;
+	font-size: 14px;
+}
+.Thumbnail h3{
+	color : black;
+	width: 200px;
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+a:hover{
+	cursor: pointer;
+}
+/* background : #f9f9f9
+subscribe : #ce362c
+sign in : #2a6cd8 */
